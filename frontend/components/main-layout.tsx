@@ -25,12 +25,15 @@ class MainLayout extends Component<Props> {
             <Link href="/">
               <a>Home</a>
             </Link>
+            <Link href="/blog">
+              <a style={{marginLeft: '3rem'}}>Blog</a>
+            </Link>
           </nav>
         </Header>
-        <Content>{children}</Content>
+        <Content style={{margin: '2rem 4rem'}}>{children}</Content>
         <Footer>
           <hr />
-          <span>I'm here to stay (Footer)</span>
+          <span>Site by: Joe</span>
         </Footer>
       </Layout>
     );

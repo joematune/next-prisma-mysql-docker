@@ -8,8 +8,8 @@ import SignupUser from '../components/signup-user';
 
 const IndexPage: NextPage = () => {
   return (
-    <Layout title="Blog Layout">
-      <h1>Simple Prisma 2 Blog Example</h1>
+    <Layout title="Next.js Blog Prisma MySQL Backend">
+      <h1>Next / Prisma / MySQL</h1>
       <h3>Create User</h3>
       <SignupUser />
       <h3>Users</h3>
